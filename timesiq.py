@@ -9,7 +9,7 @@ def show_alert(title:str,message:str):
 
     Shows a pop up displaying timebox alerts to the user
     
-    EPastore, 12/27/2025
+    EPastore, 12/2730/2025
     
     :param title: Display title for the title of the window
     :type title: str
@@ -30,7 +30,7 @@ def main(poll_seconds: float=1.0):
 
     Runs the program when the user opens the python file or launches from CLI
     
-    Epastore, 12/27/2025
+    Epastore, 12/30/2025
 
     """
     last_50_mins = None
