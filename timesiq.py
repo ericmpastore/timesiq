@@ -52,16 +52,19 @@ def main(poll_seconds: float=1.0):
             if minute == 50 and last_50_mins != hour_key:
                 last_50_mins = hour_key
                 show_alert("Time Block Warning: 10 Minutes Left",f"The time is {now.strftime('%I:%M %p')}. You have 10 minutes left in the current time block. \n Finish your current task and prepare to move to the next task.")
+                print(f"The time is {now.strftime('%I:%M %p')}. You have 10 minutes left in the current time block. \n Finish your current task and prepare to move to the next task.")
 
             #5 minute warning
             elif minute == 55 and last_55_mins != hour_key:
                 last_55_mins = hour_key
                 show_alert("Time Block Warning: 5 Minutes Left",f"The time is {now.strftime('%I:%M %p')}. You have 5 minutes left in the current time block. \n Finish your current task and prepare to move to the next task.")
+                print(f"The time is {now.strftime('%I:%M %p')}. You have 5 minutes left in the current time block. \n Finish your current task and prepare to move to the next task.")
 
             #hour warning, time to change
             elif minute == 60 and last_60_mins != hour_key:
                 last_60_mins = hour_key
                 show_alert("Time Block Complete",f"The time is {now.strftime('%I:%M %p')}. The current time block is complete. \n Move to the next task.")
+                print(f"The time is {now.strftime('%I:%M %p')}. The current time block is complete. \n Move to the next task.")
 
         except tk.TclError as e:
             print(f"Popup Error: {e}")
