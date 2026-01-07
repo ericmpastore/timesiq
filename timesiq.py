@@ -37,7 +37,7 @@ def main(poll_seconds: float=1.0):
     last_55_mins = None
     last_60_mins = None
 
-    print("Timeboxer is running. Press Ctrl-C in the console or close the application to quit.")
+    print("TimeSiq is running. Press Ctrl-C in the console or close the application to quit.")
 
     while True:
         now = dt.datetime.now()
