@@ -3,13 +3,20 @@ import time
 import tkinter as tk
 from tkinter import messagebox
 
+def get_calendar():
+    """
+    Docstring for get_calendar
+
+    Future: Will pull next time block from Google Calendar using API
+    """
+
 def show_alert(title:str,message:str):
     """
     Docstring for show_alert
 
     Shows a pop up displaying timebox alerts to the user
     
-    EPastore, 12/2730/2025
+    EPastore, 12/30/2025
     
     :param title: Display title for the title of the window
     :type title: str
