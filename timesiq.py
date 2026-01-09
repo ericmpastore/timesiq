@@ -9,6 +9,12 @@ def get_calendar():
 
     Future: Will pull next time block from Google Calendar using API
     """
+def show_window():
+    """
+    Docstring for show_window
+
+    Future: Will replace show_alert and show a running timer on the desktop rather than a pop-up
+    """
 
 def show_alert(title:str,message:str):
     """
