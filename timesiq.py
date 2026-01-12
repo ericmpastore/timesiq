@@ -3,6 +3,7 @@ import time
 import tkinter as tk
 import os.path
 from tkinter import messagebox
+import pystray
 
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
@@ -17,7 +18,10 @@ def get_calendar():
     """
     Docstring for get_calendar
 
-    Future: Will pull next time block from Google Calendar using API
+    Pulls next calendar event/timebox using Calendar API
+
+    EPastore, 01/12/2025
+
     """
 
     creds = None
@@ -74,7 +78,7 @@ def show_window():
     """
     Docstring for show_window
 
-    Future: Will replace show_alert and show a running timer on the desktop rather than a pop-up
+    Future: Will replace show_alert and show a running timer on the desktop and system tray rather than a pop-up
     """
 
 def show_alert(title:str,message:str):
