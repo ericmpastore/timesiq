@@ -4,6 +4,9 @@ import tkinter as tk
 import os.path
 from tkinter import messagebox
 import pystray
+from PIL import Image
+import time
+from threading import Thread
 
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
