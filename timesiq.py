@@ -77,6 +77,13 @@ def get_calendar():
     except HttpError as error:
         print(f"An error occurred: {error}")
 
+def show_timer():
+    """
+    Docstring for show_timer
+
+    Future: Will add option for extra timers for other systems like pomodoro
+    """
+
 def show_window():
     """
     Docstring for show_window
