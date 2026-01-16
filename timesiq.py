@@ -82,6 +82,8 @@ def show_timer():
     Docstring for show_timer
 
     Future: Will add option for extra timers for other systems like pomodoro
+
+    EPastore, 01/14/2025
     """
 
 def show_window():
@@ -89,6 +91,8 @@ def show_window():
     Docstring for show_window
 
     Future: Will replace show_alert and show a running timer on the desktop and system tray rather than a pop-up
+
+    EPastore, 01/14/2025
     """
 
 def show_alert(title:str,message:str):
